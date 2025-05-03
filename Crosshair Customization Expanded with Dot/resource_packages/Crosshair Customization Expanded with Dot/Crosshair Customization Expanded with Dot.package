@@ -1,0 +1,11 @@
+mod = [
+	"Crosshair Customization Expanded with Dot"
+]
+
+package = [
+	"resource_packages/Crosshair Customization Expanded with Dot/Crosshair Customization Expanded with Dot"
+]
+
+lua = [
+	"scripts/mods/Crosshair Customization Expanded with Dot/*"
+]
