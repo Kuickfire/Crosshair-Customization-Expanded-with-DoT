@@ -24,7 +24,7 @@ mod:hook_safe(CrosshairUI, "configure_hit_marker_color_and_size", function(self,
     local is_dovert = (damage_type == "arrow_poison_dot" or damage_type == "bleed" or damage_type == "burninating")
     local color_set = false
 
-    if not is_dovert then
+    if not is_dovert or friendly_fire then
         color_set = true
     end
 
